@@ -1,0 +1,139 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #474747;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+}
+
+html, body {
+  height: 100%; /* Высота страницы на 100% */
+  margin: 0;
+}
+
+.center-container {
+  display: flex;
+  justify-content: center; /* Горизонтальное выравнивание */
+  align-items: center;     /* Вертикальное выравнивание */
+  height: 100vh;           /* Высота контейнера — 100% от высоты экрана */
+  background-color: #ffffff; /* Фон для контекста */
+}
+
+.center-text {
+  text-align: center; /* Горизонтальное центрирование текста */
+}
+
+/* Стили для рамки */
+.frame {
+border: 1px solid #333;  /* Черная рамка толщиной 3px */
+padding: 25px;            /* Отступы внутри рамки */
+width: 1200px;             /* Ширина рамки */
+margin: 20px auto;        /* Отступ сверху и снизу, центрирование по горизонтали */
+background-color: #fcfcfc; /* Цвет фона внутри рамки */
+}
+
+.frame h2 {
+color: #333;  /* Цвет заголовка */
+text-align: center; /* Центрирование заголовка */
+}
+
+.frame p {
+color: #333;  /* Цвет текста */
+text-align: justify; /* Выравнивание текста по ширине */
+}
+
+.frame img {
+display: block;  /* Убирает отступы вокруг изображения */
+margin: 20px auto; /* Центрирует картинку */
+max-width: 100%;  /* Ограничивает размер картинки */
+}
+
+
+
+.frame h2 {
+  color: #333;  
+  text-align: center; 
+}
+
+.frame p {
+  color: #0c0c0c;  
+}
+
+.frame img {
+  display: block;  
+  margin: 20px auto; 
+  max-width: 100%;  
+}
+/* Убираем стандартное подчеркивание у ссылок */
+a {
+  text-decoration: none; /* Убираем подчеркивание */
+  color: #333; /* Цвет ссылки, например темно-серый */
+}
+
+/* Убираем эффекты на наведение */
+a:hover {
+  text-decoration: none; /* Убираем подчеркивание при наведении */
+  color: #333; /* Оставляем тот же цвет при наведении */
+}
+
+a:focus, a:active {
+  color: #333; /* Оставляем тот же цвет при активации или фокусе */
+  text-decoration: none; /* Оставляем без подчеркивания */
+}
+
+
+.text-with-padding {
+  padding-left: 20px;  /* Отступ слева */
+  padding-right: 20px; /* Отступ справа */
+  padding-top: 10px;   /* Отступ сверху */
+  padding-bottom: 10px; /* Отступ снизу */
+}

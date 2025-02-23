@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 18px; /* Увеличение шрифта */
+    line-height: 1.8; /* Увеличение расстояния между строками */
+}
+
+header {
+    background-color: #474747;
+    color: white;
+    padding: 20px 0; /* Увеличение отступов сверху и снизу */
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 20px; /* Увеличение отступа снизу */
+    font-size: 36px; /* Увеличение шрифта заголовка */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px; /* Увеличение отступов между элементами списка */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px; /* Увеличение шрифта для ссылок */
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 40px;
+}
+
+section {
+    margin-bottom: 30px; /* Увеличение отступов между секциями */
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px 0; /* Увеличение отступов сверху и снизу */
+}
+
+html, body {
+    height: 100%; /* Высота страницы на 100% */
+    margin: 0;
+}
+
+.center-container {
+    display: flex;
+    justify-content: center; /* Горизонтальное выравнивание */
+    align-items: center;     /* Вертикальное выравнивание */
+    height: 60vh;            /* Высота контейнера на 100% от высоты экрана */
+    background-color: #ffffff; /* Фон для контекста */
+}
+
+.center-text {
+    text-align: center; /* Горизонтальное центрирование текста */
+    font-size: 20px; /* Увеличение шрифта для текста в центре */
+    line-height: 2; /* Увеличение расстояния между строками */
+}
+
+.frame h2 {
+    color: #333;  /* Цвет заголовка */
+    text-align: center; /* Центрирование заголовка */
+    font-size: 30px; /* Увеличение шрифта заголовка */
+    line-height: 1.5; /* Увеличение расстояния между строками заголовка */
+}
+
+.frame p {
+    color: #ffffff;  /* Цвет текста */
+    font-size: 20px; /* Увеличение шрифта параграфа */
+    line-height: 1.8; /* Увеличение расстояния между строками в параграфе */
+    text-align: justify; /* Выровнять по ширине */
+    text-indent: 30px;   /* Отступ первого предложения */
+}
+
+.frame img {
+    display: block; /* Убирает отступы вокруг изображения */
+    margin-top: 30px;  /* Отступ сверху */
+    margin-bottom: 30px; /* Отступ снизу */
+    padding: 15px; /* Дополнительные отступы внутри изображения */
+    max-width: 100%; /* Ограничивает максимальную ширину изображения */
+}
+/* Убираем стандартное подчеркивание у ссылок */
+a {
+    text-decoration: none; /* Убираем подчеркивание */
+    color: #333; /* Цвет ссылки, например темно-серый */
+}
+
+a:hover {
+    text-decoration: none; /* Убираем подчеркивание при наведении */
+    color: #333; /* Оставляем тот же цвет при наведении */
+}
+
+a:focus, a:active {
+    color: #333; /* Оставляем тот же цвет при активации или фокусе */
+    text-decoration: none; /* Оставляем без подчеркивания */
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;  /* Горизонтальное выравнивание */
+    align-items: center;      /* Вертикальное выравнивание */
+    height: 60vh;            /* Высота контейнера на 100% от высоты экрана */
+}
+
+/* Для картинок в центре с добавлением отступа снизу */
+.center-container img {
+    max-width: 58%; /* Ограничивает максимальную ширину изображения */
+    height: auto; /* Автоматически регулирует высоту изображения */
+    margin-bottom: 20px; /* Добавляем отступ снизу */
+}
+
+/* Для выравнивания по ширине с отступом первого предложения */
+p {
+    text-align: justify; /* Выровнять по ширине */
+    text-indent: 30px;   /* Отступ первого предложения */
+    margin-bottom: 5px; /* Отступ снизу */
+}
